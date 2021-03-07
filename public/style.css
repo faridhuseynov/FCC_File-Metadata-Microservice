@@ -1,0 +1,42 @@
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: rgb(250, 250, 250);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  width: 80vw;
+  border: 1px solid gray;
+  padding: 30px;
+}
+
+p {
+  background-color: white;
+  font-size: 25px;
+  font-weight: normal;
+  padding: 5px;
+}
+
+input {
+  text-align: center;
+}
+
+button {
+  margin-top: 20px;
+}
+
+a {
+  columns: rgb(37, 137, 198);
+  font-weight: 700;
+}
+
+a:visited {
+  color: rgb(37, 137, 198);
+}
