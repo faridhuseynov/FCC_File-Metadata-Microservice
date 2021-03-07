@@ -26,9 +26,9 @@
     </h1>
     <h2>Usage:</h2>
     <label>Please Upload a File...</label>
-    <form action="" method="POST">
+    <form action="/api/fileanalyse" method="POST" enctype="multipart/form-data">
       <div id="form-block">
-        <input type="file" />
+        <input type="file" name="document" />
         <button type="submit">Upload</button>
       </div>
     </form>
