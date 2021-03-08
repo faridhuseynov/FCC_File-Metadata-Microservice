@@ -1,28 +1,26 @@
 {
-  "name": "file-metadata-microservice",
+  "name": "fcc_file-metadata-microservice",
   "version": "1.0.0",
-  "description": "Created with CodeSandbox",
+  "description": "FreeCodeCamp API & Microservices Certificate Project",
   "main": "server.js",
   "scripts": {
-    "start": "serve",
-    "build": "echo This is a static template, there is no bundler or bundling involved!"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
+    "url": "git+https://github.com/faridhuseynov/FCC_File-Metadata-Microservice.git"
   },
-  "keywords": [],
-  "author": "Ives van Hoorne",
-  "license": "MIT",
+  "author": "Farid Huseynov",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/codesandbox-app/static-template/issues"
+    "url": "https://github.com/faridhuseynov/FCC_File-Metadata-Microservice/issues"
   },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "homepage": "https://github.com/faridhuseynov/FCC_File-Metadata-Microservice#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "multer": "^1.4.2",
-    "serve": "^11.2.0"
+    "multer": "^1.4.2"
   }
 }
